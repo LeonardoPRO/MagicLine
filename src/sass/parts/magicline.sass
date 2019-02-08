@@ -1,0 +1,131 @@
+body, 
+*
+    // font-family: 'Open Sans'
+    font-family: 'Play', sans-serif
+    color: #4b5c6a
+    box-sizing: border-box
+    .center
+        text-align: center
+    h2
+        margin: 20px 0 5px
+        font-size: 40px
+        & + p
+            margin-bottom: 30px
+            font-size: 15px
+            font-family: 'Play', sans-serif
+    h3, h4
+        font-size: 18px
+        font-weight: 300         
+    hr
+        height: 1px
+        width: 70px
+        background: #a1afba
+        margin: 0 auto 40px
+        border: 0
+    .section-title
+        padding: 10px 0 30px
+    .link
+        font-weight: 400
+        &.active,
+        &:hover
+            background-color: rgba(0,0,0,.04)
+            cursor: pointer
+    .inline
+        display: inline-block
+        margin-top: -15px
+        padding: 15px 18px
+#magic-design
+    padding: 0 0 60px
+    position: relative
+    .magic-box
+        position: relative
+        height: 560px
+        width: 700px
+        top: 50px
+        bottom: 0
+        left: 0
+        right: 0
+        margin: auto
+        &.pointer
+            cursor: pointer
+    .image-1, .image-2
+        position: absolute
+        top: 0
+        left: 0
+        width: 700px
+        max-width: 700px
+        height: 520px
+        overflow: hidden
+        user-select: none
+        &:after
+            content: ''
+            position: absolute
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+        &::selection
+            background-color: transparent        
+        img
+            user-select: none
+            pointer-events: none
+            &::selection
+                background-color: transparent
+    .arrows-line
+        height: 592px
+        width: 40px
+        position: absolute
+        left: 50%
+        margin-left: -20px
+        cursor: pointer
+        top: -50px
+        .line
+            position: absolute
+            top: 10px
+            left: 19px
+            height: 580px
+            background: #b0bec5
+            width: 1px
+            box-shadow: 0 0 8px rgba(0,0,0,0.7)
+        .arrows
+            position: absolute
+            top: 5px
+            left: 4px
+            height: 30px
+            background: #12bb3f
+            width: 30px
+            color: #fff
+            font-weight: 600
+            border-radius: 3px
+            box-shadow: 0px 3px 4px rgba(0,0,0,0.2)
+            img 
+                width: 10px
+                height: 10px
+                margin: 10px 2px
+                user-select: none
+    .image-1
+        border-bottom: 20px solid #12bb3f
+    .image-2
+        width: 350px
+        border-bottom: 20px solid #ffc107
+
+.retouch
+    .re
+        display: block
+    .mor
+        display: none
+.morphing
+    .re
+        display: none
+    .mor
+        display: block
+.text-center
+    text-align: center
+.hidden
+    display: none !important
+    width: 0px !important
+.visible
+    display: block !important
+.footer
+    font-size: 13px
+    font-family: Play, sans-serif

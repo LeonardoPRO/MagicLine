@@ -1,0 +1,22 @@
+{
+  "name": "magicline",
+  "description": "magicline",
+  "main": "app.js",
+  "authors": [
+    "SERGIO SH.[PAINTER]"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery":"latest"
+  }
+}

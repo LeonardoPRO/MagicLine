@@ -2,7 +2,7 @@
   "name": "magicline",
   "version": "1.0.0",
   "description": "magicline",
-  "main": "app.js",
+  "main": "./build/html/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

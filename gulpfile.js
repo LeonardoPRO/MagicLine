@@ -14,12 +14,8 @@ cssmin = require('gulp-minify-css'),
 imagemin = require('gulp-imagemin'),
 pngquant = require('imagemin-pngquant'),
 rimraf = require('rimraf'),
-uncss = require('gulp-uncss'),
 plumber = require('gulp-plumber'),    
 browserSync = require('browser-sync'),
-del = require('del'),
-changed = require('gulp-changed'),
-ngAnnotate = require('gulp-ng-annotate'),
 reload = browserSync.reload;
 
 

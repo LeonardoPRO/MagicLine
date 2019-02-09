@@ -1,6 +1,5 @@
 jQuery.noConflict();
 jQuery(document).ready(function () {
-
     // =============================== Magic Line ====================
     var down = false;
     var magicboxLeft = jQuery('.magic-box').offset().left;

@@ -1,5 +1,5 @@
 jQuery.noConflict();
-jQuery(document).ready(function ($) {
+jQuery(document).ready(function () {
 
     // =============================== Magic Line ====================
     var down = false;
